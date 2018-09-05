@@ -1,0 +1,42 @@
+0.5.0 Propay Application
+- added email functionality
+- added function for receipt email
+
+0.4.2 Propay Application
+- default payment in database changed from processing to failed
+- added new check for canceled payments in Tsys_check_update_hpp_result
+- changed hpp css to be based on incoming vairable
+
+0.4.1 Propay Application
+- changed function to update Payments in the database to be based on any column
+- changed function to update based on hpp token
+- added code to update status based on void or refund
+
+0.4.0 Propay Application
+- added function to get paymenttoken based on payment id
+- added function to void transaction based on transaction history id
+- added function to refund transaction based on transaction history id
+
+0.3.2 Propay Application
+- added paymenttoken to payments table
+- added payment token to payments database
+- fixed result insert
+- added payment token to insert new payment
+
+0.3.1 Propay Application
+- sent back error code on submission error
+- set notification email to note_email
+
+0.3 Propay Application
+- Added Payments table
+- Added Payments table functions
+- Updated Payments table with results from hpp
+- Updated search for payerid to be based on merchant and email
+
+0.2 Propay Application
+- Added error handling
+
+0.1 Propay Application
+- functions for running class methods
+- class for calling propay and protect pay api
+- class for manipulating the database
